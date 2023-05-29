@@ -2,8 +2,8 @@
 
 Contactify is a full-stack web application that helps you manage all your contacts. It provides users the ability to add, delete and update their contacts. 
 This README file provides an overview of the project, installation instructions, and usage guidelines.
-<img width="1440" alt="Screenshot 2023-05-29 at 3 31 04 PM" src="https://github.com/sakshamian/Contactify/assets/90832897/cf9ca5fb-d786-4224-b39b-87f3f7748f83">
-<img width="1440" alt="Screenshot 2023-05-29 at 3 35 59 PM" src="https://github.com/sakshamian/Contactify/assets/90832897/da47d185-4a55-40f7-be53-7ec1dc967781">
+<img width="1319" alt="Screenshot 2023-05-29 at 3 31 04 PM" src="https://github.com/sakshamian/Contactify/assets/90832897/1c6b2a7e-0269-407e-8cd7-499bbf794312">
+<img width="1412" alt="Screenshot 2023-05-29 at 3 35 59 PM" src="https://github.com/sakshamian/Contactify/assets/90832897/cddc7704-c988-490b-b21a-bdfb261dda66">
 
 ## Technologies Used
 
