@@ -50,12 +50,12 @@ const Navbar = ({ title = "Contactify" }) => {
               </>
             ) : (
               <>
-                <li className="nav-item">
+                <li className="nav-item mx-4">
                   <Link to="/login">
                     <div className="nav-link">Login</div>
                   </Link>
                 </li>
-                <li className="nav-item mx-2">
+                <li className="nav-item mx-4">
                   <Link to="/register">
                     <div className="nav-link">Register</div>
                   </Link>
