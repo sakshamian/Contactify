@@ -28,8 +28,9 @@ const EditContact = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const res = await fetch(`http://localhost:8000/api/contact`, {
+    const res = await fetch(`https://contactify-api.onrender.com/api/contact`, {
       method: "PUT",
+      mode: 'no-cors',
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -51,7 +52,7 @@ const EditContact = () => {
     setLoading(true);
     try {
         async function fetchData(){
-          const res = await fetch(`http://localhost:8000/api/contact/${id}`, {
+          const res = await fetch(`https://contactify-api.onrender.com/api/contact/${id}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
